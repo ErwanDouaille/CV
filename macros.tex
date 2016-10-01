@@ -1,0 +1,28 @@
+%!TEX encoding =  UTF-16                                                                                                                                                                                      
+% See geometry.pdf to learn the layout options. There are lots.                                                                                                                                               
+\usepackage[hmargin=1.25cm, vmargin=1.5cm]{geometry}
+\usepackage{amssymb}
+\usepackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[frenchb]{babel}
+\usepackage{hyperref}
+\definecolor{linkcolour}{HTML}{701112}  %light purple link for the email                                                                                                                                      
+\definecolor{shade}{HTML}{F0F0F0}       %light blue shade                                                                                                                                                     
+\definecolor{text1}{HTML}{2b2b2b}               %text is almost black                                                                                                                                         
+\definecolor{headings}{HTML}{701112}    %dark red                                                                                                                                                             
+\hypersetup{    colorlinks,breaklinks,
+                       urlcolor=linkcolour,
+                        linkcolor= linkcolour}
+\usepackage{fancyhdr}                           %custom footer                                                                                                                                                
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\usepackage{titlesec}                           %custom \section                                                                                                                                              
+
+%CV Sections inspired by:                                                                                                                                                                                     
+%http://stefano.italians.nl/archives/26                                                                                                                                                                       
+%\titleformat{ command }[ shape ]{ format }{ label }{ sep }{ before }[ after ]
+
+\titleformat{\section}{\color{headings}\scshape\large\centering}{}{0em}{}[\color{black}\hrule width \textwidth ]%\titlerule]
+\titlespacing{\section}{0pt}{0pt}{5pt}
+\usepackage{marvosym}
