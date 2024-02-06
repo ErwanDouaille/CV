@@ -1,0 +1,162 @@
+% ----------------------------------------------------------------------------------------%
+%	Created by Alessandro with TeXShop						%
+%	---->	May 27, 2009										%
+%	Compiled with XeLaTeX, on Mac OS X						%
+%	Licensed under the Creative Commons Attribution 3.0 Unported	%
+%	Share, change, spread, and have fun!						%
+%	http://creativecommons.org/licenses/by/3.0/					%
+%	You can find more at http://aleplasmati.comuv.com				%
+% ----------------------------------------------------------------------------------------%
+
+\documentclass[9pt]{article}
+
+\input{macros}
+\begin{document}
+
+\color{text1} % set text color for the whole doc
+%%%%%%%% TITRE %%%%%%
+\vspace{-20pt}
+\begin{minipage}[t]{0.45\textwidth}
+  \vspace{-35pt}	
+         {\color{headings}\Large \textsc{Douaille Erwan}}
+         \vspace{8pt}
+         \hrule height 2pt width \textwidth
+
+          \begin{flushright}
+	  			{Senior Engineering Lead}
+          \end{flushright}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\textwidth}
+	%\vspace{0pt} %trick for alignment
+	
+	\colorbox{shade}{\textcolor{text1}{
+		\begin{tabular}{c|p{7cm}}
+			\raisebox{-0pt}{\Gentsroom}  & 33 yo \\
+			\raisebox{-0pt}{\Letter}  & 16 rue Hector Berlioz, 62220 Carvin, France\\
+			\raisebox{0pt}{\Mobilefone}  		& +33 7 81 65 29 28\\
+			\raisebox{1pt}{\scriptsize \MVAt} 	&\href{mailto:douailleerwan@gmail.com}{douailleerwan@gmail.com} \\
+			\raisebox{-0.35ex}{\includegraphics[width=2.5ex]{LinkedIn-InBug-2C}} &\href{http://www.linkedin.com/pub/erwan-douaille/62/369/963}{linkedin.com} 
+		\end{tabular}
+	}
+}\\[10pt]
+\end{minipage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	COMPETENCES
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hspace{-20pt}
+\begin{minipage}[t]{0.47\textwidth}
+	\vspace{-66pt} %trick for alignment
+\section{Soft skills}
+	\begin{tabular}{p{0.5\textwidth}p{0.5\textwidth}}
+		\textbf{\small Technology watch} & \textbf{\small Project management} \\
+		{\small monitoring of innovations, synthesis of solutions} & 
+		{\small specification, conception, development, validation} \\ & \\
+	
+		\textbf{\small Methodology} & \textbf{\small Languages} \\
+		{\small Event programming, OOC, design patterns} & 
+		{\small French: native, English: fluent} \\ & \\
+	
+	\end{tabular}
+\end{minipage} %END of right-hand side minipage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	CONNAISSANCES INFORMATIQUES
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hspace{15pt}
+\begin{minipage}{0.45\textwidth}
+\section{Technical skills}
+\begin{tabular}{p{0.5\textwidth}p{0.5\textwidth}}
+	\textbf{\small Languages} & \textbf{\small Visualization} \\
+	{\small \textsc{c},  \textsc{c++}, Smalltalk/Pharo, \textsc{java/jee}, Javascript, Python, Shell} & 
+	{\small \textsc{OpenGL}, Shader \textsc{GL/SL}, \textsc{OpenCV}, \textsc{VTK},\textsc{Unity3D}, Tracking}\\ & \\
+	\textbf{\small Tools} & \textbf{\small Web} \\
+	{\small \textsc QTCreator, \textsc{git}, \textsc{Visual Studio}, \textsc{CMake}, {UML}} & 
+	{\small \textsc{xhtml/css}, \textsc{php}/\textsc{m}y\textsc{sql}} \\ & 
+\end{tabular}
+\end{minipage} %END of right-hand side minipage
+
+\titleformat{\section}
+        {\color{headings}
+                \scshape\large\raggedright}{}{0em}{}[\color{black}\hrule width \textwidth] %\titlerule]
+\vspace{0.1cm}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	EXPERIENCES PROFESSIONNELLES
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Work experience}
+\begin{tabular}{rl}    
+%Persistent 2019
+	\textsc{August} 2023& Senior Engineering Lead \textbf{Persistent Systems}, {\small remote FRANCE, \textit{current}}\\
+        &{$\rhd$ \small Pre-operative and intra-operative TKA software guidance application}\\	
+        &{$\rhd$ \small technology: C++, Qt, CMake, MITK}\\ &\\     
+
+%AQUILAB 2019
+	\textsc{December} 2019& Lead R\&D Engineer \textbf{Aquilab}, {\small Loos FRANCE, \textit{3y 8m}}\\
+        &{$\rhd$ \small ARTIVIEW, a collaborative solution for plan preparation and evaluation of radiotherapy treatments}\\	
+        &{$\rhd$ \small technology: C++, Qt, CMake, Dicom, VTK, Python, Go }\\ &\\     
+        
+%ASPIC 2018
+	\textsc{March} 2018& R\&D engineer \textbf{Aspic Technologies}, {\small Tourcoing FRANCE, \textit{1y 2m}}\\
+        &{$\rhd$ \small CinematicVR, a comprehensive software suite aiming at best spatialized 360 audio}\\	
+        &{$\rhd$ \small technology: C++, Qt, ffmpeg, CMake}\\ &\\     
+           
+%GSOC 2018
+	\textsc{February} 2018& \textbf{Google} Summer of Code 2018, {\small remote FRANCE, \textit{6m}}\\
+        &{$\rhd$ \small \textbf{Mentor} an Indian student working on a communication plugin for the Sofa-framework group}\\ &\\
+               
+%DEFROST 2017
+	\textsc{July} 2017& R\&D engineer \textbf{INRIA} équipe \textbf{DEFROST}, {\small Lille FRANCE, \textit{8m}}\\
+        &{$\rhd$ \small communication plugin system, GLSL ray marching renderer, headless renderer plugin, maintenance for Sofa}\\	
+        &{$\rhd$ \small technology: C++, Qt, Sofa-Framework, CMake, UPD, OSC, ZMQ, shader GL/SL}\\ &\\
+                  
+%MINT 2015
+	\textsc{November} 2015& R\&D engineer interactive system \textbf{INRIA} team \textbf{MINT}, {\small Lille FRANCE, \textit{1y 6m}}\\
+        &{$\rhd$ \small Linux graphical layer hack for holographic software with real time tracking}\\	
+        &{$\rhd$ \small technology: C++, Qt, Javascript, Linux, Gnome-shell, Clutter, shader GL/SL}\\ &\\
+       
+%STAGE MINT 2015
+	\textsc{March} 2015& Internship \textbf{INRIA} team \textbf{MINT}, {\small Lille FRANCE, \textit{6m}}\\
+        &{$\rhd$ \small Linux graphical layer hack for anamorphosis software with real time tracking}\\
+        &{$\rhd$ \small technology: C++, Javascript, Linux, Gnome-shell, Clutter, Kinect, ARTrack, OpenGL, shader GL/SL}\\ &\\
+       
+%CDD IRCICA 2014
+	\textsc{July} 2014& R\&D engineer team \textbf{MINT} , {\small University Lille 1 FRANCE, \textit{2m}}\\
+        &{$\rhd$ \small anamorphosis software development with real time tracking}\\
+        &{$\rhd$ \small technology: C++, Windows API, Kinect, ARTrack, OpenGL, GL/SL}\\ &\\
+        
+%GSOC 2013
+	\textsc{June} 2013& \textbf{Google} Summer of Code 2013, {\small remote FRANCE, \textit{3m}}\\
+        &{$\rhd$ \small volunteer student, development of UIPainter for ESUG association}\\ &\\
+        
+%STAGE RMOD 2013 2012
+	\textsc{April} 2013& Internship \textbf{INRIA} team \textbf{RMOD}, {\small Lille FRANCE, \textit{3m}}\\
+	\textsc{April} 2012& Internship \textbf{INRIA} team \textbf{RMOD}, {\small Lille FRANCE, \textit{5m}}\\
+        &{$\rhd$ \small technology: Smalltalk/Pharo, OpenGL et Jenkins}\\ &\\
+\end{tabular}
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	FORMATION
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+\begin{tabular}{rl}    
+	2013 - 2015& \textbf{Master's Degree computing science}, speciality Image Vision Interaction, {\small  University Lille 1 France}\\ & \\	
+	2012 - 2013& \textbf{Bachelor's Degree computin science}, {\small  University Lille 1 France}\\ & \\	
+	2010 - 2012& \textbf{Associate's Degree computing science}, {\small University Lille 1 IUT-A France}\\           & \\	
+\end{tabular}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%	CENTRES D INTERET
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Hobbies}   
+Airsoft, Music, Video games \\
+
+\end{document}  
